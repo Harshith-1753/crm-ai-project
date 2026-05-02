@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT */
+.form-section {
+  width: 35%;
+  padding: 20px;
+  background: white;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  background: #2563eb;
+  color: white;
+}
+
+.export-btn {
+  background: #16a34a;
+}
+
+/* Dashboard */
+.dashboard {
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* History */
+.history-box {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.history-item {
+  background: #f9fafb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.history-item button {
+  margin-right: 5px;
+}
+
+/* RIGHT */
+.chat-section {
+  width: 65%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* Messages */
+.message {
+  max-width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+/* USER RIGHT */
+.message.user {
+  align-self: flex-end;
+  background: #2563eb;
+  color: white;
+}
+
+/* AI LEFT */
+.message.ai {
+  align-self: flex-start;
+  background: #e5e7eb;
+}
+
+/* Input */
+.chat-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+}
+
+.chat-input button {
+  background: #22c55e;
+  margin-left: 5px;
+}
