@@ -1,5 +1,8 @@
 import os
 from groq import Groq
+from dotenv import load_dotenv
+
+load_dotenv()   # 🔥 THIS LINE IS MISSING IN YOUR CODE
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
