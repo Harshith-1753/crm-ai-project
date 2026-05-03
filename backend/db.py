@@ -61,3 +61,4 @@ def get_last_interaction():
         }
 
     return {}
+
